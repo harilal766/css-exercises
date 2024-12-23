@@ -1,0 +1,21 @@
+/* Common style for odd and third elements */
+.odd,
+.third {
+    background-color: pink;
+    font-size: Verdana, "DejaVu Sans",sans-serif;
+    font-weight: bold;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+.second {
+    color: blue;
+    font-size: 36px;
+}
+
+#fourth {
+    background-color: lightgreen;
+    font-weight: bold;
+}
