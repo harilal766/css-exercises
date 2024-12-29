@@ -2,41 +2,43 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Main and sub titles */
+/* The subtitle and the last bold text have same characters*/
 .para,
-.small-para {
+.small-par, .text.child {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+.para {
+  font-size: 28px;
 }
 
-.para {
+.small-para, div .child {
+  font-size: 18px;
+}
+
+/* 
+  Confirm and cancel button common  characters : 
+  same button height,
+  same font
+  black border
+*/
+.button {
+  border: 2px solid black;
   font-size: 22px;
 }
-
-.confirm {
-  background: green;
+/* Chaining selector for unique properties */
+#confirm-button {
+  background-color: green;
   color: white;
   font-weight: bold;
-} 
-
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+#cancel-button {
+  background-color: white;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
+.text {
+  font-size: 28px;
 }
