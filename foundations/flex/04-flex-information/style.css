@@ -10,7 +10,12 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
+
+/* Debugging */
+* { border: 1px solid black;}
+
 
 /* do not edit this footer */
 .footer {
