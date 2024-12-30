@@ -17,6 +17,12 @@ img {
 * { border: 1px solid black;}
 
 
+.items {
+  display: flex;
+}
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
