@@ -47,7 +47,6 @@ ul {
   list-style-type: none;
 }
 
-
 .header{
   display: flex;
   justify-content: space-between;
@@ -56,14 +55,15 @@ ul {
 
 ul {
   display: flex;
-  gap: 8px;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
-
-.left {
+.left, .right {
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
-.right {
-  
-}
+
