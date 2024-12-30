@@ -3,6 +3,17 @@
   background: papayawhip;
 }
 
+.header, .left-links ul, .right-links ul{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links ul li a, .right-links ul li a{
+  color: blue;
+}
+
+
 .logo {
   font-size: 48px;
   font-weight: 900;
