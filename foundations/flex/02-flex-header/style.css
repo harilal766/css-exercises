@@ -3,14 +3,21 @@
   background: papayawhip;
 }
 
-.header, .left-links ul, .right-links ul{
-  padding: 10px;
+.header {
+  padding: 8px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
+ul {
+  display: flex;
+  margin: 0; padding: 0;
+  gap: 8px;
+}
 .left-links ul li a, .right-links ul li a{
   color: blue;
+  gap: 5px;
 }
 
 
