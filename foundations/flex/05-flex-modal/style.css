@@ -71,7 +71,7 @@ button.cancel {
 
 /* Changes */
 /* Debugger */
-* { border: 1px solid red;}
+/* { border: 1px solid red;} */
 
 .header,.continue,.cancel {
   font-weight: bold;
@@ -80,11 +80,14 @@ button.cancel {
 .header {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 .middle {
-  background-color: #aaa;
+  display: flex; flex-direction: column;
+  gap: 10px; 
 }
+
 
 .modal {
   display: flex;
@@ -93,9 +96,6 @@ button.cancel {
   gap: 16px;
 }
 
-.modal {
-  display: flex;
-}
 /* Shrinking */
 .icon{
   flex-shrink: 0;
