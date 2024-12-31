@@ -69,12 +69,37 @@ button.cancel {
   color: royalblue;
 }
 
-
 /* Changes */
-.header {
+/* Debugger */
+* { border: 1px solid red;}
+
+.header,.continue,.cancel {
   font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle {
+  background-color: #aaa;
+}
+
+.modal {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 16px;
 }
 
 .modal {
   display: flex;
 }
+/* Shrinking */
+.icon{
+  flex-shrink: 0;
+  font-weight: bold;
+}
+
+
