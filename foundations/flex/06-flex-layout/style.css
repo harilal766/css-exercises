@@ -24,3 +24,44 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Debugger */
+/*  { border: 1px solid gray;} */
+
+/* Header area*/
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+  /* Removing bullet points from lists*/
+.left-links, .right-links {
+  list-style-type: none;
+}
+
+.left-links, .right-links {
+  display: flex;
+   gap: 10px;
+}
+
+/*  Style anchor tags */ 
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.content {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+  justify-content: space-between;
+}
+
+
+body {
+  flex-direction: column;
+}
