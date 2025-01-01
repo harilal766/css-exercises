@@ -90,12 +90,12 @@ lines when they run out of room on the page.
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 16px;
 }
 
 .card {
   padding: 16px;
   width: 300px;
-
 }
 
 /*
