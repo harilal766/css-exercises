@@ -32,6 +32,7 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
   /* Removing bullet points from lists*/
