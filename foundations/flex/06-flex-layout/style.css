@@ -35,13 +35,11 @@ input {
 }
 
   /* Removing bullet points from lists*/
-.left-links, .right-links {
+ul {
   list-style-type: none;
-}
-
-.left-links, .right-links {
   display: flex;
-   gap: 10px;
+  margin: 0; padding: 0;
+  gap: 16px;
 }
 
 /*  Style anchor tags */ 
@@ -50,18 +48,53 @@ a {
   color: gray;
 }
 
-.content {
-  border: 1px solid red;
+
+body {
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.content * {
+  border: 1px solid red;
+}
+
+
+
+
+.buttons { 
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+button {
+  padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
   display: flex;
   background-color: #eeeeee;
   justify-content: space-between;
-}
-
-
-body {
-  flex-direction: column;
+  padding: 16px;
 }
