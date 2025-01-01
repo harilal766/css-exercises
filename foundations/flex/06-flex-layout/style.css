@@ -52,20 +52,16 @@ a {
 body {
   display: flex;
   flex-direction: column;
-  padding: 10px;
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
-.content * {
-  border: 1px solid red;
-}
-
-
-
 
 .buttons { 
   display: flex;
