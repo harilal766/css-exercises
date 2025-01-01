@@ -30,17 +30,72 @@ body {
 
 /* Changes */
 /* Step 1 : make the body in to a column flex */
-* {
-  border :1px solid red;
-}
+
 /* 
-The header text is size 32px and weight 900.-
-The header text is vertically centered and 16px from the 
-edge of the screen.
+  The header text is size 32px and weight 900.-
+  The header text is vertically centered and 16px from the 
+  edge of the screen.
 */
 .header h2{
   margin-left: 16px;
   font-weight: 900;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex:1;
+  display: flex;
+
+}
+
+
+/*
+The sidebar and cards take up all available space above the footer.
+The sidebar is 300px wide (and it doesn't shrink).
+The sidebar links are size 24px, are white, and do not have the underline text decoration.
+The sidebar has 16px padding.
+*/
+
+.sidebar{
+  flex-shrink: 0;
+  font-size: 24px;
+}
+ul {
+  list-style-type: none;
+  margin: 0; padding: 0;
+}
+li {
+  margin-top: 16px;
+  margin-bottom : 16px;
+  padding-left: 16px;
+}
+a {
+  text-decoration: none;
+  color:white;
+}
+
+/*
+There is 48px padding around the 'cards' section.
+The cards are arranged horizontally, but wrap to multiple 
+lines when they run out of room on the page.
+*/
+
+.container {
+  padding:48px; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 16px;
+  width: 300px;
+
 }
 
 /*
@@ -53,28 +108,4 @@ edge of the screen.
   align-items: center;
   justify-content: center;
 }
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0; padding: 0;
-}
-li {
-  margin-bottom : 16px;
-  padding-left: 16px;
-}
-a {
-  text-decoration: none;
-  color:white;
-}
-
-.body {
-  display: flex;
-
-}
-
-
 
